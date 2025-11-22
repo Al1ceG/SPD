@@ -1,6 +1,8 @@
-# SPD: Sensitive Subspace Projection for Feature Erasure
+# SPD: Subspace Projection Debiasing
 
-This repository contains the implementation of **SPD** and the baseline method **SFID** on attribute-replacement experiments on FairFace.
+An official repository for "Bias Is a Subspace, Not a Coordinate: A Geometric Rethinking of Post‑hoc Debiasing in Vision-Language Models"
+
+This repository contains the implementation of **SPD** and the baseline method **[SFID](https://github.com/HoinJung/Unified-Debiaisng-VLM-SFID)** on attribute-replacement experiments on FairFace.
 
 This experiment uses the SPD and SFID methods on the FairFace dataset to replace features across three dimensions, age, gender, and race, with low-confidence mean embeddings. Logistic regression is then used to evaluate the classification performance of these replaced embeddings. This verifies the effectiveness and completeness of the debiasing process and measures the level of feature entanglement (i.e., whether replacing one attribute significantly affects the accuracy of others) to ensure semantic integrity.
 
