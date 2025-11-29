@@ -40,3 +40,12 @@ To experiment with different values of $r$ in our paper, adjust the value of `MA
 sh run_sfid.sh
 ```
 
+If you find SPD useful for your research and applications, please cite using this BibTeX:
+```
+@article{zhao2025bias,
+  title={Bias Is a Subspace, Not a Coordinate: A Geometric Rethinking of Post-hoc Debiasing in Vision-Language Models},
+  author={Zhao, Dachuan and Li, Weiyue and Shen, Zhenda and Qiu, Yushu and Xu, Bowen and Chen, Haoyu and Chen, Yongchao},
+  journal={arXiv preprint arXiv:2511.18123},
+  year={2025}
+}
+```
