@@ -1,4 +1,4 @@
-# SPD: Subspace Projection Debiasing
+# SPD: Subspace Projection Debiasing -- for MLP Practical
 
 An official repository for "Bias Is a Subspace, Not a Coordinate: A Geometric Rethinking of Post‑hoc Debiasing in Vision-Language Models"
 
